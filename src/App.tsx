@@ -46,7 +46,7 @@ function App() {
 
   useEffect(() => {
     // const instance = new Vapi('09eed585-d93a-4af8-940b-b8e742d5710e'); //sanjeev sir
-    const instance = new Vapi(011af9cc-b706-4a52-b345-ea137f671f3f'); //Kushal
+    const instance = new Vapi('011af9cc-b706-4a52-b345-ea137f671f3f'); //Kushal
     setVapi(instance);
 
     console.log('✅ Vapi instance initialized');
