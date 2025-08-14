@@ -45,8 +45,8 @@ function App() {
   };
 
   useEffect(() => {
-    // const instance = new Vapi('09eed585-d93a-4af8-940b-b8e742d5710e'); //sanjeev sir
-    const instance = new Vapi('011af9cc-b706-4a52-b345-ea137f671f3f'); //Kushal
+    const instance = new Vapi('09eed585-d93a-4af8-940b-b8e742d5710e'); //sanjeev sir
+    // const instance = new Vapi('011af9cc-b706-4a52-b345-ea137f671f3f'); //Kushal
     setVapi(instance);
 
     console.log('✅ Vapi instance initialized');
@@ -152,8 +152,8 @@ function App() {
         }
         
         // Start the call
-        // vapi.start('ebdbb35e-04a3-433b-abc2-87e588a44849'); //sanjeev sir 
-        vapi.start('f1740c39-a1fb-4a19-8af3-5c6822140cba'); //Kushal
+        vapi.start('ebdbb35e-04a3-433b-abc2-87e588a44849'); //sanjeev sir 
+        // vapi.start('f1740c39-a1fb-4a19-8af3-5c6822140cba'); //Kushal
 
 
         // Set a timeout to check if speech starts (Windows audio detection)
