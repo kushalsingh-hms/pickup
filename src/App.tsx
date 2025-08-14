@@ -297,7 +297,7 @@ function App() {
                     Please Wait! Connecting Best AI Agent ...
                   </div>
                 ) : (
-                  'Start Bed Pickup Agent'
+                  'Start Voice Assistent (Pickup)'
                 )}
               </button>
               {isLoading && (
